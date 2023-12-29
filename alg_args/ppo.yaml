@@ -5,14 +5,15 @@ alg_args:
     "lr": 3.0e-4
     "gamma": 0.1
     "clip": 0.2
-    "batch_size": 512
+    "batch_size": 32
     "n_updates_per_iteration": 5
     "save_freq": 5
     "gae": True
     "norm_adv": True
-    "minibatch_size": 64
+    "minibatch_size": 4
     "ent_coef": 0.0
     "vf_coef": 0.5
     "gae_lambda": 0.95
     "max_grad_norm": 0.5
     "clip_vloss": True
+    "max_time": 604800

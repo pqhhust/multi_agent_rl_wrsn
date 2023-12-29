@@ -30,4 +30,4 @@ with open("alg_args/ppo.yaml", 'r') as file:
 controller = PPO(args['alg_args'], device)
 
 
-controller.train(env, 1000, save_folder="save_model/ppo")
+controller.train(env, 500, save_folder="save_model/ppo")

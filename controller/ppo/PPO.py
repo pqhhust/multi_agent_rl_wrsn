@@ -155,9 +155,9 @@ class PPO:
                     round(request["action"][0], 4),
                     round(request["action"][1], 4),
                     round(request["action"][2], 4),
-                    round(request["detailed_rewards"][0], 4),
-                    round(request["detailed_rewards"][1], 4),
-                    round(request["detailed_rewards"][2], 4)
+                    # round(request["detailed_rewards"][0], 4),
+                    # round(request["detailed_rewards"][1], 4),
+                    # round(request["detailed_rewards"][2], 4)
                 ])
                 self.file_log_all.flush()
 
